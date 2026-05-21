@@ -27,16 +27,17 @@ button:hover {
     transform: scale(1.1);
 }
 .container {
-    width: 90%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 490px;
 
-    margin: 250px auto;
+    margin: 230px auto;
     padding: 20px;
 
     background: rgba(180, 255, 0, 0.1);
     border-radius: 20px;
 
     text-align: center;
+    align-items: center;
 
     backdrop-filter: blur(10px);
     border: 1px solid rgba(180, 255, 0, 0.3);
@@ -45,7 +46,7 @@ button:hover {
 
     opacity: 0;
     transform: translateY(50px);
-    transition: 0.5s;
+    transition: all 0.6s ease;
 
     position: relative;
     overflow: hidden;
@@ -84,6 +85,7 @@ button:hover {
 }
 .Home li {
     list-style: none;
+    margin: 2px;
 }
 .Home li a {
     color: #B4FF00;
@@ -114,6 +116,8 @@ button:hover {
     cursor: pointer;
     border-radius: 10px;
     z-index: 1002;
+
+    transition: all 0.3s ease;
 }
 
 .overlay {
